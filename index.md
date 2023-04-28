@@ -1,4 +1,4 @@
-## &emsp;&emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO &emsp;
+## &emsp;&emsp;&emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO &emsp;
 
 ---
 
