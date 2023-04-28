@@ -2,15 +2,14 @@
 
 ---
 
-<span style="color:white">spacespacespace</span>
+<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
 [Homepage](../)
-<span style="color:white">spacespacespace</span>
+<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
 [Index](./)
 
 ---
-
 <br>
-<!--- Header Above -->
+
 ## Index Page
 
 
