@@ -1,4 +1,4 @@
-# Selected Data Science Projects
+# Emily.K Portfolio
 
 ---
 
