@@ -9,6 +9,7 @@
 
 ---
 
+<br>
 
 <a name="projectpage1"></a>
 ### AAPL Stock Price Forecast using LSTM
