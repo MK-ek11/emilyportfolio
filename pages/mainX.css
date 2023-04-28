@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body {
+    !font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    !letter-spacing: 16px;
+}
+
+#subhead {
+    color:#393939;
+    text-align:center;
+}
+
+#paragraph {
+    color: #828282;
+    !padding:20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align:left;
+}
+
+#sideparagraph {
+    color: #828282;
+    text-align:left;
+}
+
+#sidebysidecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    max-width: 900px; /* Here */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+#header {
+    !height: 4rem;
+    padding-top:16px;
+    padding-bottom:18px;
+    border-bottom-style: solid;
+    border-bottom-color: #393939;
+    border-bottom-width: thick;
+    align-items: center;
+}
+
+
+#footer {
+    margin-top: auto;
+    !position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;            /* Footer height */
+    !background-color: #efefef;
+    border-top-style: solid;
+    border-top-color: #393939;
+    border-top-width: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footercontentindex {
+    font-size:17px;
+    padding-left:30px;
+    !float:centre;
+    !word-spacing:50px;
+}
+
+#headercontentindex {
+    font-size:17px;
+    padding-left:30px;
+    !float:centre;
+    !word-spacing:50px;
+}
+
+blockquote {
+    margin: 0;}
+
+blockquote p {
+    padding: 25px;
+    color: #828282;
+    background: #F0F8FF;
+    border-radius: 5px;
+}
+
+#returntext {
+    color: #267CB9;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" type="text/css" href="mainX.css" />
+   <title>AAPL Stock Price Forecast using LSTM</title>
+   <style>
+    /*hover feature and link for text in footer*/
+    .textfooterlink:hover {
+      font-weight: bold;
+      color:#069;}
+    .textfooterlink {
+      color:#267CB9;
+      text-decoration:none;}
+
+    /*hover feature and link for text in paragraph*/
+    .textparlink:hover {
+      text-decoration: underline;
+      color:#069;}
+    .textparlink {
+      color:#267CB9;
+      text-decoration:none;}
+
+   </style>
+ </head>
+
+<body>
+  <div id="page-container">
+    <header id = header align="center">
+      <div >
+        <a class=textfooterlink id = headercontentindex href="../">Homepage</a>
+        <a class=textfooterlink id = headercontentindex href="https://www.linkedin.com/in/emilyelk/">LinkedIn</a>
+        <a class=textfooterlink id = headercontentindex href="https://github.com/MK-ek11/stock_price_forecast_with_LSTM">GitHub (View Code)</a>
+      </div>
+    </header>
+      <h2 id = subhead >AAPL Stock Price Forecast using LSTM</h2>
+      <div style="text-align:center">
+        <small><i>by Emily Khor | April 22, 2023</i></small>
+      </div>
+      <br>
+      <!---
+      <hr size="1", width="100%" color ="#C0C0C0"/>
+      -->
+    
+
+    <div id="content-wrapper">
+      <figure align="center">
+        <h5 id = subhead>AAPL Stock Actual and Predicted Open Price for 2023 </h5>
+        <img src="/emilyportfolio/images/mainplot.gif"/>
+      </figure>
+      <br>
+
+      <div>
+        <h4 id = subhead >Brief Summary of LSTM</h4>
+        <p id = paragraph >
+          The LSTM model is a type of artificial neural network and stands for Long Short-Term Memory network.
+          It’s an improvement over RNN (Recurrent Neural Network), which often struggles with long-term dependencies in sequential data and are prone to the vanishing gradient problem.
+          <br>
+          The LSTM model addresses this issue with the integration of a memory cell with gated connections that can selectively remember or forget information from previous time steps.
+          This allows the model to capture important long-term patterns or information and make predictions for future time steps.
+          <br>
+          As a result, this makes LSTM suitable for modeling time-dependent data with long-term dependencies and forecasting time-series data like stock prices.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Data Acquisition and Model Building</h4>
+        <p id = paragraph >
+          This project focuses on predicting the stock prices of
+          <a class=textparlink href="https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch" target="_blank">
+           Apple Inc. (AAPL)
+          </a>
+          , but an LSTM model should work on any stocks by simply switching up the input data.
+          The historical AAPL stock prices going all the way back to 2000 were extracted from
+          <a class=textparlink href="https://finance.yahoo.com/" target="_blank">
+          Yahoo Finance
+          </a>
+          and used to train the model.
+          <br>
+          The model was built using the Pytorch package in Python.
+          Two different LSTM models were built and evaluated - one with a single LSTM layer, and another with two LSTM layers.
+          The intention was to see how model complexity affects the accuracy of the prediction.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead>Hyperparameter Tuning and Model Training</h4>
+        <figure align="center">
+          <h5 id = subhead >R2 Plot and RMSE Plot with the Optimal Hyperparameters for Both Models Indicated </h5>
+          <img src="/emilyportfolio/images/model_plot.png" width = '700px' height = 'auto'/>
+          <br>
+        </figure>
+        <P id = paragraph>
+          <a>
+           The models were trained using the historical stock price data up to 2022, and different combinations of hyperparameters were tuned to determine the optimal set of hyperparameters.
+           The combination of hyperparameters for each model was evaluated by looking at RMSE (Root Mean Square Error) and R2 (Coefficient of Determination).
+           The models were then validated using stock prices from 2023.
+           <br>
+           The best hyperparameters for both models were used to predict stock prices from January 2023 to now.
+           The results showed that the single-layer LSTM model was better for forecasting stock prices than the multi-layer LSTM, with lower RMSE and higher R2 values.
+          </a>
+        </P>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead>Key Takeaways</h4>
+        <blockquote>
+        <div id="sidebysidecontainer">
+          <p id = sideparagraph >
+            Based on the findings from the training stage, it seems that a simpler model like the single-layer LSTM is effective for modeling and predicting time-dependent data such as stock prices.
+            For this case, the single-layer LSTM model outperformed the multi-layer LSTM model and produced predictions that were closest to the actual stock price.
+            Overall, the LSTM model can be an effective tool for forecasting stock prices or other time-dependent data after careful consideration of model architecture and hyperparameters.
+          </p>
+          <figure>
+            <h5 id = subhead>Comparison of LSTM Models</h5>
+            <img src="/emilyportfolio/images/mainplot_blink.gif" width="450px" height="auto"/>
+          </figure>
+        </div>
+        </blockquote>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Interactive Plot of AAPL Stock Open Price</h4>
+        <hr style="border: 0; border-bottom: 1px solid #069;"/>
+        <div id="sidebysidecontainer">
+          <div align="center">
+            <iframe  frameborder="0" scrolling="no" src="http://127.0.0.1:3001/" alt="Interactive PLotly Plot is not Available" width = '600px' height = '400px'> </iframe>
+          </div>
+          <div align="center">
+            <iframe  frameborder="0" scrolling="no" src="http://127.0.0.1:3002/" alt="Interactive PLotly Plot is not Available" width = '600px' height = '400px'> </iframe>
+          </div>
+        </div>
+        <hr style="border: 0; border-bottom: 1px solid #069;"/>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead>Next Stage of the Project</h4>
+        <p id = paragraph>
+          The model could be trained with fine-tuned hyperparameters using all historical data from 2000 until today.
+          Once trained, the model can then be used to predict only the stock price for the following day.
+        </p>
+      </div>
+      <br>
+
+
+      <div id =returntext>
+        <a class=textfooterlink href="../">
+          &#x2190 Return to Homepage
+        </a>
+      </div>
+      <br>
+
+    </div>
+
+    <footer id="footer">
+      <div >
+        <a class=textfooterlink id = footercontentindex href="../">Homepage</a>
+        <a class=textfooterlink id = footercontentindex href="https://www.linkedin.com/in/emilyelk/">LinkedIn</a>
+        <a class=textfooterlink id = footercontentindex href="https://github.com/MK-ek11/stock_price_forecast_with_LSTM">GitHub (View Code)</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
