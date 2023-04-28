@@ -15,7 +15,7 @@
 ## AAPL Stock Price Forecast using LSTM
 [![insert image](/images/mainplot_blink.gif)](./pages/projectpage1.html)
 <br>
-**Description**
+**Summary**
 <br>
 An LSTM model was built and trained on historical AAPL stock prices from Yahoo Finance to predict the stock prices for AAPL in 2023. 
 Two LSTM models were compared after fine-tuning the hyperparameters, and the results showed that a simple single-layer LSTM was better at modeling the actual stock price data and forecasting than the multi-layer LSTM model. 
@@ -42,7 +42,7 @@ Overall, the LSTM model can be effective for predicting stock prices or other ti
 ## Coursework: Data Visualization of Airbnb Listing using Tableau
 [![insert image](/images/tableau1.gif)](./pages/cwpage4.html)
 <br>
-**Description**
+**Summary**
 <br>
 The project is focused on helping new Airbnb hosts in Sydney gather valuable insights and strategies to maximize guest bookings. 
 The goal of the visualization system is to empower hosts with the key factors that drive bookings and ensure that they can run a profitable and sustainable accommodations.
