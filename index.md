@@ -1,4 +1,5 @@
-## EMILY K PORTFOLIO
+<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+## &emsp;&emsp; EMILY KHOR PORTFOLIO
 
 ---
 
