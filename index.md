@@ -1,4 +1,3 @@
-<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
 ## &emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO
 
 ---
