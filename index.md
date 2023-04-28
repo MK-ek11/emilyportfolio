@@ -1,4 +1,4 @@
-## &emsp;&emsp;&emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO &emsp;
+# &emsp;&emsp;&emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO &emsp;
 
 ---
 
@@ -12,7 +12,7 @@
 <br>
 
 <a name="projectpage1"></a>
-### AAPL Stock Price Forecast using LSTM
+## AAPL Stock Price Forecast using LSTM
 [![insert image](/images/mainplot_blink.gif)](./pages/projectpage1.html)
 <br>
 **Description**
@@ -34,10 +34,12 @@ Overall, the LSTM model can be effective for predicting stock prices or other ti
 <br>
 <br>
 <br>
+<br>
 
+---
 
 <a name="cwpage4"></a>
-### Coursework: Data Visualization of Airbnb Listing using Tableau
+## Coursework: Data Visualization of Airbnb Listing using Tableau
 [![insert image](/images/tableau1.gif)](./pages/cwpage4.html)
 <br>
 **Description**
@@ -52,6 +54,7 @@ The goal of the visualization system is to empower hosts with the key factors th
 <br>
 <br>
 [![](https://img.shields.io/badge/-Tableau-white?logo=tableau&style=plastic)](#)
+<br>
 <br>
 <br>
 <br>
@@ -120,7 +123,6 @@ Insert Description
 
 ---
 
----
 
 <!---
 <sub><sup>Hosted on Github Pages : [MK-ek11/emilyportfolio](https://github.com/MK-ek11/emilyportfolio)</sup></sub>
