@@ -1,4 +1,4 @@
-# &emsp;&emsp;&emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO &emsp;
+# &emsp;&emsp;&emsp;EMILY KHOR PORTFOLIO
 
 ---
 
@@ -32,11 +32,12 @@ Overall, the LSTM model can be effective for predicting stock prices or other ti
 [![](https://img.shields.io/badge/-Python-white?logo=python&style=plastic)](#)
 [![](https://img.shields.io/badge/-PyTorch-%23EE4C2C?logo=pytorch&logoColor=white&style=plastic)](#)
 <br>
-<br>
-<br>
-<br>
 
 ---
+
+<br>
+<br>
+<br>
 
 <a name="cwpage4"></a>
 ## Coursework: Data Visualization of Airbnb Listing using Tableau
@@ -55,6 +56,9 @@ The goal of the visualization system is to empower hosts with the key factors th
 <br>
 [![](https://img.shields.io/badge/-Tableau-white?logo=tableau&style=plastic)](#)
 <br>
+
+---
+
 <br>
 <br>
 <br>
@@ -121,7 +125,6 @@ Insert Description
 -->
 
 
----
 
 
 <!---
