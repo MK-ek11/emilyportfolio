@@ -2,31 +2,13 @@
 
 ---
 
-<span style="color:white">spacespacespace</span>
+<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
 [Homepage](./)
-<span style="color:white">spacespacespace</span>
+<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
 [Index](./pages/pageindex.md)
 
 ---
 
-<br>
-<!--- Header Above -->
-<a name="projectpage2"></a>
-### Project X Topic
-Insert Image
-Insert Description 
-<br>
-<br>
-[Read More &#x2192;](#)
-<br>
-[GitHub (View Code)](#)
-<br>
-<br>
-[![](https://img.shields.io/badge/-Jupyter-white?logo=jupyter&style=plastic)](#)
-[![](https://img.shields.io/badge/-Python-white?logo=python&style=plastic)](#)
-<br>
-<br>
-<br>
 
 <a name="projectpage1"></a>
 ### AAPL Stock Price Forecast using LSTM
@@ -42,7 +24,7 @@ Overall, the LSTM model can be effective for predicting stock prices or other ti
 <br>
 [Read More &#x2192;](./pages/projectpage1.html)
 <br>
-[GitHub (View Code)](https://github.com/MK-ek11/stock_price_forecast_with_LSTM)
+[GitHub (View Code) &#x2192;](https://github.com/MK-ek11/stock_price_forecast_with_LSTM)
 <br>
 <br>
 [![](https://img.shields.io/badge/-Jupyter-white?logo=jupyter&style=plastic)](#)
@@ -55,7 +37,7 @@ Overall, the LSTM model can be effective for predicting stock prices or other ti
 
 <a name="cwpage4"></a>
 ### Coursework: Data Visualization of Airbnb Listing using Tableau
-Insert Image
+[![insert image](/images/tableau1.gif)](./pages/cwpage4.html)
 <br>
 **Description**
 <br>
@@ -63,9 +45,9 @@ The project is focused on helping new Airbnb hosts in Sydney gather valuable ins
 The goal of the visualization system is to empower hosts with the key factors that drive bookings and ensure that they can run a profitable and sustainable accommodations.
 <br>
 <br>
-[Read More &#x2192;](./pages/cwpage4.md)
+[Read More &#x2192;](./pages/cwpage4.html)
 <br>
-[Tableau (View Dashboard)](https://public.tableau.com/views/DashboardObjective2/DashboardObjective2?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Tableau (View Dashboard) &#x2192;](https://public.tableau.com/views/DashboardObjective2/DashboardObjective2?:language=en-US&:display_count=n&:origin=viz_share_link)
 <br>
 <br>
 [![](https://img.shields.io/badge/-Tableau-white?logo=tableau&style=plastic)](#)
@@ -73,7 +55,7 @@ The goal of the visualization system is to empower hosts with the key factors th
 <br>
 <br>
 
-
+<!---
 <a name="cwpage3"></a>
 ### Coursework: Implementation of XAI and Adversarial Attack on Pre-Trained CNN Models
 Insert Image
@@ -132,11 +114,13 @@ Insert Description
 <br>
 <br>
 <br>
-
+-->
 
 
 ---
+
 ---
+
 <!---
 <sub><sup>Hosted on Github Pages : [MK-ek11/emilyportfolio](https://github.com/MK-ek11/emilyportfolio)</sup></sub>
 -->
