@@ -1,4 +1,4 @@
-# &emsp;&emsp;&nbsp;EMILY KHOR PORTFOLIO
+# &emsp;&emsp;&emsp;EMILY KHOR PORTFOLIO
 
 ---
 
@@ -36,7 +36,6 @@ Overall, the LSTM model can be effective for predicting stock prices or other ti
 
 ---
 
-<br>
 <br>
 
 <a name="cwpage4"></a>
