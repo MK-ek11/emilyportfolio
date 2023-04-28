@@ -1,5 +1,4 @@
-# emilyportfolio  
-Personal Portfolio for Selected Data Science Projects
+# Personal Portfolio for Selected Data Science Projects
 <br>
 <br>
 
