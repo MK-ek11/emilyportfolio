@@ -1,4 +1,4 @@
-# Emily.K Portfolio
+## EMILY K PORTFOLIO
 
 ---
 
