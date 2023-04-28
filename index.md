@@ -1,5 +1,5 @@
 <span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-## &emsp;&emsp; EMILY KHOR PORTFOLIO
+## &emsp;&emsp;&emsp; EMILY KHOR PORTFOLIO
 
 ---
 
