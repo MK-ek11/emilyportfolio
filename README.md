@@ -4,7 +4,7 @@ Personal Portfolio for Selected Data Science Projects
 <br>
 
 # Programming Icons
-[![](https://img.shields.io/badge/-Python-white?logo=python&style=plastic)]
+[![](https://img.shields.io/badge/-Python-white?logo=python&style=plastic)](#)
 
 [![](https://img.shields.io/badge/-Jupyter-white?logo=jupyter&style=plastic)](#)
 
