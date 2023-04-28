@@ -1,0 +1,23 @@
+title: Emily Khor # your name (or website title) here
+logo: "/images/Placeholder-500x500.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  <br>
+  Description data science portfolio
+  <br>
+  <br>
+  <blockquote> 
+  <p>“Practice isn't the thing you do once you're good. It's the thing you do that makes you good.</p>
+  <p><small> ― Malcolm Gladwell, Outliers: The Story of Success”</small></p>
+  </blockquote>
+  <br>
+  <br>
+  <p>
+  <a href="https://www.linkedin.com/in/emilyelk/"><img src="https://img.shields.io/badge/-LinkedIn-white?logo=linkedin&style=social" alt=""></a>
+  <a href="https://github.com/MK-ek11?tab=repositories"><img src="https://img.shields.io/badge/-GitHub-white?logo=github&amp;style=social" alt=""></a>
+  <a href="https://public.tableau.com/app/profile/em.k"><img src="https://img.shields.io/badge/-Tableau-white?logo=tableau&style=social" alt=""></a>
+  </p>
+  
+theme: jekyll-theme-minimal
+
+colors:
+  crimson: '#900C3F'
