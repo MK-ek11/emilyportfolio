@@ -1,8 +1,8 @@
-# &emsp;&emsp;&emsp;EMILY KHOR PORTFOLIO
+# &emsp;&emsp;&nbsp;EMILY KHOR PORTFOLIO
 
 ---
 
-<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+<span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</span>
 [Homepage](./)
 <span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
 [Index](./pages/pageindex.md)
