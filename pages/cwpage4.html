@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" type="text/css" href="mainX.css" />
+   <title>Data Visualization of Airbnb Listing using Tableau</title>
+   <style>
+    /*hover feature and link for text in footer*/
+    .textfooterlink:hover {
+      font-weight: bold;
+      color:#069;}
+    .textfooterlink {
+      color:#267CB9;
+      text-decoration:none;}
+
+    /*hover feature and link for text in paragraph*/
+    .textparlink:hover {
+      text-decoration: underline;
+      color:#069;}
+    .textparlink {
+      color:#267CB9;
+      text-decoration:none;}
+   </style>
+ </head>
+
+<body>
+  <div id="page-container">
+    <header id = header align="center">
+      <div >
+        <a class=textfooterlink id = headercontentindex href="../">Homepage</a>
+        <a class=textfooterlink id = headercontentindex href="https://www.linkedin.com/in/emilyelk/" target="_blank">LinkedIn</a>
+        <a class=textfooterlink id = headercontentindex href="https://public.tableau.com/views/DashboardObjective2/DashboardObjective2?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau (View Dashboard)</a>
+      </div>
+    </header>
+    <h2 id = subhead >Data Visualization of Airbnb Listing using Tableau</h2>
+    <div style="text-align:center">
+      <small><i>by Emily Khor | May 01, 2022</i></small>
+    </div>
+    <br>
+
+
+    <div id="content-wrapper">
+      <h5 id = subhead >Tableau Interactive Dashboard</h5>
+      <iframe seamless frameborder="0" scrolling="no" src="https://public.tableau.com/views/DashboardObjective2/DashboardObjective2?:embed=yes&:display_count=yes&:showVizHome=no" width = '950' height = '1150'>
+
+      </iframe>
+
+
+      <div>
+        <h4 id = subhead>Summary</h4>
+        <p id = paragraph>
+          The project is focused on helping new Airbnb hosts in Sydney gather valuable insights and strategies to maximize guest bookings.
+          The goal of the visualization system is to empower hosts with the key factors that drive bookings and ensure that they can run a profitable and sustainable accommodations.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead>Data Acquisition</h4>
+        <p id = paragraph >
+          The original
+          <a class=textparlink href="http://insideairbnb.com/get-the-data" target="_blank">
+          Airbnb Dataset
+          </a>
+          contains data dating back to 2009.
+          However, the visualization system will be limited to only data from 2017 to 2021.
+          The objective is to gain an understanding of the current state of the Airbnb market in Sydney, and the recent pre-covid years are the most relevant for this purpose.
+          As a result, all charts in this section only display data from the years 2017 to 2021.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Section 1</h4>
+        <h5 id = subhead>Objective and Assumptions</h5>
+        <P id = paragraph>
+          <a>
+            The first objective was to identify the ideal neighborhood for owning an Airbnb listing in Sydney to maximize guest bookings by considering both popularity and pricing.
+            The dataset provided had information on the total number of reviews for each listing which could be indicative of the listing's popularity.
+            <br>
+            Hence, this metric was used as a proxy for identifying the most in-demand listings.
+            The booking price would also be a strong factor to consider as an Airbnb Host.
+            Before setting a price, a potential host would want to compare the market rate within the neighbourhood to ensure their listing is competitive and appealing to potential guests.
+          </a>
+        </P>
+        <br>
+        <figure align="center">
+          <img src="/emilyportfolio/images/tabsection1.gif" alt="Image Top Here" width = '700px' height = 'auto'/>
+          <br>
+        </figure>
+        <h5 id = subhead >Key Insights</h5>
+        <blockquote>
+          <p style="padding: 50px;">
+            &#x2756; Pittwater and Manly are the only two neighbourhoods in Sydney (the state) found in the top five highest average price neighbourhoods and the top five most reviewed (most popular). Pittwater has the highest average price and is also the third most reviewed, while Manly is the fourth most expensive and fifth most popular.
+            <br>
+            &#x2756; However, Sydney (the neighbourhood) is still significantly more popular compared to the other neighbourhoods.
+            <br>
+            &#x2756; Potential hosts could consider owning an Airbnb listing in either Sydney, Pittwater, or Manly, depending on their desired booking price.
+            <br>
+            &#x2756; Regardless of the location, owning an entire home/apartment is generally preferable. The stacked bar chart illustrates that over 70% of Airbnb guests prefer booking entire homes/apartments, regardless of the neighborhood's popularity or price.
+          </p>
+        </blockquote>
+
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Section 2 </h4>
+        <h5 id = subhead>Objective and Assumptions</h5>
+        <P id = paragraph>
+          <a>
+            Once the ideal neighbourhoods were identified, the next objective was to understand why it’s popular and when it’s most in demand.
+            Examining trends and location-based factors of Airbnb listings could provide additional insights to support the findings from the first objective.
+          </a>
+        </P>
+        <br>
+        <figure align="center">
+          <img src="/emilyportfolio/images/tabsection2.gif" alt="Image Top Here" width = '700px' height = 'auto'/>
+          <br>
+        </figure>
+        <h5 id = subhead >Key Insights</h5>
+        <blockquote>
+          <p style="padding: 50px;">
+            &#x2756; The Airbnb listings in Sydney (the state) are most occupied in December and January, coinciding with the holiday season.
+            <br>
+            &#x2756; During the least occupied period (April to September), Sundays tend to have more Airbnb listings receiving reviews than other days of the week.
+            <br>
+            &#x2756; No matter the year or week, Sydney (the neighbourhood) remains the popular choice.
+            <br>
+            &#x2756; These insights lend further support that owning an Airbnb listing in Sydney, Pittwater, or Manly is a good option due to its popularity throughout the year.
+            <br>
+            &#x2756; Furthermore, hosts could consider adjusting their booking price on weekends during non-peak periods, as some weekends still see high occupancy rates according to the Calendar Heatmap.
+          </p>
+        </blockquote>
+      </div>
+      <br>
+
+
+      <div id =returntext>
+        <a class=textfooterlink href="../">
+          &#x2190 Return to Homepage
+        </a>
+      </div>
+      <br>
+
+    </div>
+
+
+    <footer id="footer">
+      <div>
+        <a class=textfooterlink id = footercontentindex href="../">Homepage</a>
+        <a class=textfooterlink id = footercontentindex href="https://www.linkedin.com/in/emilyelk/" target="_blank">LinkedIn</a>
+        <a class=textfooterlink id = headercontentindex href="https://public.tableau.com/views/DashboardObjective2/DashboardObjective2?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau (View Dashboard)</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
