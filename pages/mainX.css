@@ -2,7 +2,7 @@
 body {
     !font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
     font-family: "Noto Sans";
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 1.6;
     !letter-spacing: 16px;
@@ -48,7 +48,6 @@ body {
     min-height: 100vh;
 }
 
-
 #header {
     !height: 4rem;
     padding-top:16px;
@@ -76,15 +75,15 @@ body {
 }
 
 #footercontentindex {
-    font-size:17px;
-    padding-left:30px;
+    font-size:16px;
+    padding-left:50px;
     !float:centre;
     !word-spacing:50px;
 }
 
 #headercontentindex {
-    font-size:17px;
-    padding-left:30px;
+    font-size:16px;
+    padding-left:50px;
     !float:centre;
     !word-spacing:50px;
 }
