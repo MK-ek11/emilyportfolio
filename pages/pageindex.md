@@ -5,7 +5,7 @@
 <span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</span>
 [Homepage](../)
 <span style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-[Index](./)
+[Index](./pages/pageindex.md)
 
 ---
 <br>
