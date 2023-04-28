@@ -13,9 +13,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   </blockquote>
   <br>
   <p>
-  <a href="https://www.linkedin.com/in/emilyelk/"><img src="https://img.shields.io/badge/-LinkedIn-white?logo=linkedin&style=social" alt=""></a>
-  <a href="https://github.com/MK-ek11?tab=repositories"><img src="https://img.shields.io/badge/-GitHub-white?logo=github&amp;style=social" alt=""></a>
-  <a href="https://public.tableau.com/app/profile/em.k"><img src="https://img.shields.io/badge/-Tableau-white?logo=tableau&style=social" alt=""></a>
+  <a href="https://www.linkedin.com/in/emilyelk/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-white?logo=linkedin&style=social" alt=""></a>
+  <a href="https://github.com/MK-ek11?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/-GitHub-white?logo=github&amp;style=social" alt=""></a>
+  <a href="https://public.tableau.com/app/profile/em.k" target="_blank"><img src="https://img.shields.io/badge/-Tableau-white?logo=tableau&style=social" alt=""></a>
   </p>
   
 theme: jekyll-theme-minimal
