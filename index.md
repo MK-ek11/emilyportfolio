@@ -11,6 +11,32 @@
 
 <br>
 
+<a name="projectpage2"></a>
+## Starbucks Customer Satisfaction and Sentiment Analysis based on Googlemap Reviews
+[![insert image](/images/mainplot_blink.gif)](./pages/projectpage2.html)
+<br>
+**Summary**
+<br>
+paragraph
+<br>
+paragraph
+<br>
+<br>
+[Read More &#x2192;](./pages/projectpage2.html)
+<br>
+[GitHub (View Code) &#x2192;](https://github.com/MK-ek11/sentiment_analysis_googlemap_reviews_with_chatgptmodel)
+<br>
+<br>
+[![](https://img.shields.io/badge/-Jupyter-white?logo=jupyter&style=plastic)](#)
+[![](https://img.shields.io/badge/-Python-white?logo=python&style=plastic)](#)
+[![](https://img.shields.io/badge/-PyTorch-%23EE4C2C?logo=pytorch&logoColor=white&style=plastic)](#)
+<br>
+<br>
+
+---
+
+<br>
+
 <a name="projectpage1"></a>
 ## AAPL Stock Price Forecast using LSTM
 [![insert image](/images/mainplot_blink.gif)](./pages/projectpage1.html)
