@@ -25,7 +25,7 @@ The insights drawn from the project suggest that analyzing review content provid
 <br>
 [Read More &#x2192;](./pages/projectpage2.html)
 <br>
-[GitHub (View Code) &#x2192;](https://github.com/MK-ek11/sentiment_analysis_googlemap_reviews_with_chatgptmodel)
+[GitHub (View Code) &#x2192;](https://github.com/MK-ek11/sentiment_analysis_googlemap_reviews_with_chatgpt)
 <br>
 <br>
 [![](https://img.shields.io/badge/-Jupyter-white?logo=jupyter&style=plastic)](#)
