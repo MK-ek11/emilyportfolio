@@ -32,6 +32,7 @@ The insights drawn from the project suggest that analyzing review content provid
 [![](https://img.shields.io/badge/-OpenAI%20API-white?logo=openAI&style=plastic&logoColor=412991)](#)
 [![](https://img.shields.io/badge/-Selenium-white?logo=Selenium&style=plastic)](#)
 [![](https://img.shields.io/badge/-Google%20Maps%20API-white?logo=Google%20Maps&style=plastic)](#)
+[![](https://img.shields.io/badge/-Tableau-white?logo=tableau&style=plastic)](#)
 <br>
 <br>
 
