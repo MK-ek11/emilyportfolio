@@ -29,7 +29,9 @@ The insights drawn from the project suggest that analyzing review content provid
 <br>
 [![](https://img.shields.io/badge/-Jupyter-white?logo=jupyter&style=plastic)](#)
 [![](https://img.shields.io/badge/-Python-white?logo=python&style=plastic)](#)
-[![](https://img.shields.io/badge/-PyTorch-%23EE4C2C?logo=pytorch&logoColor=white&style=plastic)](#)
+[![](https://img.shields.io/badge/-OpenAI%20API-white?logo=openAI&style=plastic&logoColor=412991)](#)
+[![](https://img.shields.io/badge/-Selenium-white?logo=Selenium&style=plastic)](#)
+[![](https://img.shields.io/badge/-Google%20Maps%20API-white?logo=Google%20Maps&style=plastic)](#)
 <br>
 <br>
 
