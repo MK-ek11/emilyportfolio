@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" type="text/css" href="mainX.css" />
+   <title>Starbucks Customer Satisfaction and Sentiment Analysis based on Googlemap Reviews</title>
+   <style>
+    /*hover feature and link for text in footer*/
+    .textfooterlink:hover {
+      font-weight: bold;
+      color:#069;}
+    .textfooterlink {
+      color:#267CB9;
+      text-decoration:none;}
+
+    /*hover feature and link for text in paragraph*/
+    .textparlink:hover {
+      text-decoration: underline;
+      color:#069;}
+    .textparlink {
+      color:#267CB9;
+      text-decoration:none;}
+   </style>
+ </head>
+
+<body>
+  <div id="page-container">
+    <header id = header align="center">
+      <div >
+        <a class=textfooterlink id = headercontentindex href="../">Homepage</a>
+        <a class=textfooterlink id = headercontentindex href="https://www.linkedin.com/in/emilyelk/">LinkedIn</a>
+        <a class=textfooterlink id = headercontentindex href="https://github.com/MK-ek11/sentiment_analysis_googlemap_reviews_with_chatgptmodel">GitHub (View Code)</a>
+      </div>
+    </header>
+    <h2 id = subhead >Starbucks Customer Satisfaction and Sentiment Analysis based on Googlemap Reviews</h2>
+    <div style="text-align:center">
+      <small><i>by Emily Khor | June 7, 2023</i></small>
+    </div>
+    <br>
+    <!---
+    <hr size="1", width="100%" color ="#C0C0C0"/>
+    -->
+
+    <div id="content-wrapper">
+      <blockquote style="width: 80%; margin: 0 auto; text-align: left; ">
+        <p>
+          <span style="font-style: italic;">
+            “It takes 20 years to build a reputation and five minutes to ruin it.
+            If you think about that, you’ll do things differently.”
+          </span>
+          <br>
+          <strong style="color: #757575;">
+            – Warren Buffet
+          </strong>
+        </p>
+      </blockquote>
+
+
+
+
+      <div>
+        <h4 id = subhead>Introduction</h4>
+        <p id = paragraph >
+          When we're trying to assess the customer experience at a business,
+          we often turn to review ratings as a quick and easy way to gauge customer satisfaction.
+          However, ratings alone don't always paint the full picture.
+          A high rating might suggest a satisfied customer,
+          but it doesn't tell us whether the customer had a positive or negative experience.
+          <br>
+          To get a more accurate understanding of the customer experience,
+          it's crucial to look at the content of their reviews and analyze the sentiment of their comments.
+          In this way, we can gain deeper insights into the nuances of customer experiences and identify specific areas for improvement.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead>Data Acquisition</h4>
+        <p id = paragraph >
+          The initial plan was to extract Google Maps reviews using the
+          <a class=textparlink href="https://mapsplatform.google.com/maps-products/" target="_blank">
+            Google Maps API
+          </a>.
+          However, this approach had a limitation as it could only provide the top 5 reviews for each location.
+          To overcome this, Selenium and BeautifulSoup were used to scrape the Google Maps webpage,
+          allowing for the extraction of more than 5 reviews.
+          <br>
+          A list of Starbucks locations was obtained from the
+          <a class=textparlink href="https://onlinestore.starbucks.com.hk/pages/starbucks-stores-in-hong-kong-%E6%98%9F%E5%B7%B4%E5%85%8B%E9%A6%99%E6%B8%AF%E5%88%86%E5%BA%97" target="_blank">
+            Starbucks website
+          </a>,
+          and the Google Maps API was used to automate the extraction of the Google Maps hyperlink for each Starbucks location.
+          Before scraping the reviews, the analysis was narrowed down to only the Starbucks location in the western district of Hong Kong Island.
+          The data extracted included review ratings, reviewer's data, and review content.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead>ChatGPT Model for Sentiment Analysis </h4>
+        <p id = paragraph >
+          To control the cost of the project,
+          the review data analyzed was limited to Starbucks locations in the western district of Hong Kong Island,
+          as ChatGPT models are
+          <a class=textparlink href="https://openai.com/pricing" target="_blank">
+            priced per 1000 tokens
+          </a>
+          .
+          <br>
+          The model used in this project was the GPT-3.5-turbo model through
+          <a class=textparlink href="https://openai.com/blog/openai-api" target="_blank">
+            OpenAI API
+          </a>
+          .
+          Despite the availability of GPT-4,
+          I decided on GPT-3.5-turbo as there wasn't a significant
+          <a class=textparlink href="https://platform.openai.com/docs/models/gpt-3-5" target="_blank">
+            difference in capability
+          </a>
+          between the two models and it is the most
+          <a class=textparlink href="https://platform.openai.com/docs/models/gpt-3-5" target="_blank">
+            cost-effective model
+          </a>
+          for the project.
+          This decision allowed the project to remain within budget while still achieving the desired results.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Analysis of Starbucks Review Ratings</h4>
+        <div id="sidebysidecontainer">
+          <div align="center">
+            <img src="1bar_overview.jpeg" alt="Image Top Here" width = '450px' height = 'auto'/>
+          </div>
+          <div align="center">
+            <img src="2bar_detail.jpeg" alt="Image Top Here" width = '550px' height = 'auto'/>
+          </div>
+        </div>
+        <br>
+        <P id = paragraph>
+          <a>
+            The customer review ratings were visualized before analyzing the customer review sentiment.
+            Typically, ratings above 3 stars are viewed positively,
+            while ratings at or below 3 stars are viewed negatively.
+            This information was used to guide the analysis of the customer review sentiment and gain a deeper understanding of the customers' experiences and opinions.
+          </a>
+          <h5 id = subhead >Key Takeaways:</h5>
+          <a>
+            <ul id = paragraph>
+              <li>The Starbucks stores in the western district generally have ratings above 3 stars, but a significant proportion of the ratings are unfavorable.</li>
+              <li>For Starbucks at The Henry, nearly 50% of customers that visited the store had a negative experience, and the unfavorable reviews are distributed across 1 to 3-star ratings.</li>
+              <li>For Starbucks at 香港大學, approximately 30% of customers had such negative experiences that they gave the lowest ratings possible (a 1-star rating).</li>
+            </ul>
+          </a>
+        </P>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Analysis of Starbucks Review Sentiment</h4>
+        <div id="sidebysidecontainer">
+          <div align="center">
+            <img src="1hist_overview.jpeg" alt="Image Top Here" width = '500px' height = 'auto'/>
+          </div>
+          <div align="center">
+            <img src="2hist_overview.jpeg" alt="Image Top Here" width = '500px' height = 'auto'/>
+          </div>
+        </div>
+        <br>
+        <P id = paragraph>
+          <a>
+            After analyzing the customer ratings, the customer reviews were analyzed using ChatGPT to provide additional insights.
+            Sentiment analysis was conducted to determine the review's overall sentiment,
+            the top 3 emotions expressed, and if the review mentions customer service.
+           <br>
+            Bar charts and Sankey diagrams were used to visualize review sentiment and data related to customer service,
+            while interactive Bubble charts were used to visualize data related to emotions expressed in the review.
+          </a>
+        </P>
+
+        <h5 id = subhead >Key Takeaways:</h5>
+
+        <div id="sidebysidecontainer">
+          <p id = sideparagraph>
+            <ul id = sideparagraph>
+              <li>
+                There is a stark contrast between the review ratings and the review sentiment bar chart.
+                The reviews with ratings above 3 stars are split nearly 50/50 between neutral and positive sentiment.
+                Although the ratings are favorable, the sentiment of the reviews is generally neutral based on the review content.
+              </li>
+              <li>
+                Regarding customer service,
+                only a small proportion of negative sentiment reviews mentioned negative customer service experiences,
+                but no positive comments were made about the customer service in the store.
+              </li>
+            </ul>
+          </p>
+          <figure>
+            <img src="sankey_1.jpeg" alt="Side by Side Image" width="480px" height="auto"/>
+          </figure>
+        </div>
+
+        <div id="sidebysidecontainer">
+          <p id = sideparagraph>
+            <ul id = sideparagraph>
+              <li>
+                Similarly to Starbucks at 香港大學,
+                a proportion of customers who gave favorable review ratings for the store at The Henry left a review with a generally neutral sentiment.
+              </li>
+              <li>
+                Additionally, it is worth noting that some customers who gave unfavorable ratings left reviews with positive sentiments.
+              </li>
+              <li>
+                Interestingly, none of the negative sentiment reviews mentioned customer experience.
+                Further analysis would be needed to explore the complaints customers have regarding the store if they are not related to customer service.
+              </li>
+            </ul>
+          </p>
+          <figure>
+            <img src="sankey_2.jpeg" alt="Side by Side Image" width="480px" height="auto"/>
+          </figure>
+        </div>
+
+        <div id="sidebysidecontainer">
+          <p id = sideparagraph>
+            <ul id = sideparagraph>
+              <li>
+                The Starbucks at Imperial Kennedy received the most reviews with positive sentiment,
+                and the review ratings were consistent with the sentiment of the reviews,
+                with all positive reviews having a rating above 3 stars.
+              </li>
+              <li>
+                In contrast to the 香港大學 store,
+                both The Henry and Imperial Kennedy locations had both positive and negative comments about customer service.
+              </li>
+            </ul>
+          </p>
+          <figure>
+            <img src="sankey_3.jpeg" alt="Side by Side Image" width="480px" height="auto"/>
+          </figure>
+        </div>
+      </div>
+      <br>
+
+
+      <div>
+        <h5 id = subhead >Emotions Expressed in Customer’s Reviews (Interactive Chart) </h5>
+        <hr style="border: 0; border-bottom: 1px solid #069;"/>
+        <div align="center">
+          <iframe  frameborder="0" scrolling="no" src="https://public.tableau.com/views/emotion_dashboard/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" alt="Interactive PLotly Plot is not Available" width = '600px' height = '550px'> </iframe>
+        </div>
+
+
+        <h5 id = subhead >Key Takeaways:</h5>
+          <p id = paragraph>
+            <a>
+              <ul id = paragraph>
+                <li>The analysis of customer reviews revealed that 香港大學 and The Henry locations had the most negative emotions expressed in their reviews.</li>
+                <li>In contrast, customers that visited The Imperial Kennedy location expressed more positive emotions in their reviews.</li>
+                <li>The positive emotions expressed at The Imperial Kennedy location suggest that there may be opportunities to replicate these positive experiences at other locations.</li>
+              </ul>
+            </a>
+          </p>
+        <hr style="border: 0; border-bottom: 1px solid #069;"/>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Final Thoughts</h4>
+        <p id = paragraph>
+          The insights drawn from this project suggest that while review ratings can be a useful indicator,
+          analyzing the review content provides a more nuanced understanding of customer sentiment and experiences.
+          Additionally, the variance in customer experiences across different locations highlights the need for location-specific analysis and improvements.
+          By identifying specific emotions expressed in the reviews,
+          it may be possible to better understand the underlying experiences and address issues that contribute to negative emotions.
+        </p>
+      </div>
+      <br>
+
+
+      <div>
+        <h4 id = subhead >Next Stage of the Project</h4>
+        <p id = paragraph>
+          Further analysis of the customer reviews could reveal more specific insights into the experiences and opinions of customers at each location.
+          <br>
+          The next step would be to identify specifically what aspects of the store, customers appreciate and identify which areas besides customer service, needs improvements.
+        </p>
+      </div>
+      <br>
+
+
+      <div id =returntext>
+        <a class=textfooterlink href="../">
+          &#x2190 Return to Homepage
+        </a>
+      </div>
+      <br>
+      <br>
+    </div>
+
+
+    <footer id="footer">
+      <div>
+        <a class=textfooterlink id = footercontentindex href="../">Homepage</a>
+        <a class=textfooterlink id = footercontentindex href="https://www.linkedin.com/in/emilyelk/">LinkedIn</a>
+        <a class=textfooterlink id = footercontentindex href="https://github.com/MK-ek11/sentiment_analysis_googlemap_reviews_with_chatgptmodel">GitHub (View Code)</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
