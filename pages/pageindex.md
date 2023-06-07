@@ -14,7 +14,7 @@
 
 
 1. Side Project
-* [Starbucks Customer Satisfaction and Sentiment Analysis based on Googlemap Reviews](../#projectpage2)
+* [Starbucks Google Maps Review Sentiment and Customer Satisfaction Analysis using ChatGPT](../#projectpage2)
 * [AAPL Stock Price Forecast using LSTM](../#projectpage1)
 <br>
 2. Data Visualization Coursework
