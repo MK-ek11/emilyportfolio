@@ -13,13 +13,13 @@
 
 <a name="projectpage2"></a>
 ## Starbucks Customer Satisfaction and Sentiment Analysis based on Googlemap Reviews
-[![insert image](/images/mainplot_blink.gif)](./pages/projectpage2.html)
+[![insert image](/images/main_pp2_1.gif)](./pages/projectpage2.html)
 <br>
 **Summary**
 <br>
-paragraph
+The project aimed to assess customer experience by analyzing Google Maps reviews for Starbucks locations in the western district of Hong Kong Island. To overcome the limitations of the Google Maps API, Selenium and BeautifulSoup were used to extract more than 5 reviews per location. The review data was analyzed using the GPT-3.5-turbo model through OpenAI API. 
 <br>
-paragraph
+The insights drawn from the project suggest that analyzing review content provides a more nuanced understanding of customer sentiment and experiences, and highlights the need for location-specific analysis and improvements to address issues contributing to negative customer experience.
 <br>
 <br>
 [Read More &#x2192;](./pages/projectpage2.html)
