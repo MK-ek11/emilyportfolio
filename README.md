@@ -26,6 +26,11 @@
 
 [![](https://img.shields.io/badge/-Pandas-%23150458?logo=pandas&style=plastic)](#)
 
+[![](https://img.shields.io/badge/-OpenAI%20API-white?logo=openAI&style=plastic&logoColor=412991)](#)
+
+[![](https://img.shields.io/badge/-Google%20Maps%20API-4285F4?logo=Google%20Maps&style=plastic&logoColor=white)](#)
+
+[![](https://img.shields.io/badge/-Selenium-white?logo=Selenium&style=plastic)](#)
 
 # Social Icons
 [![][github]][github_link]
