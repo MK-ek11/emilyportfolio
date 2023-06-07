@@ -13,7 +13,8 @@
 
 <a name="projectpage2"></a>
 ## Starbucks Google Maps Review Sentiment and Customer Satisfaction Analysis using ChatGPT
-[![insert image](/images/main_pp2_1.gif)](./pages/projectpage2.html)[![insert image](/images/main_pp2_2.gif)](./pages/projectpage2.html)
+[![insert image](/images/main_pp2_1.gif)](./pages/projectpage2.html)
+[![insert image](/images/main_pp2_2.gif)](./pages/projectpage2.html)
 <br>
 **Summary**
 <br>
